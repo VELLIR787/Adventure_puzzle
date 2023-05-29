@@ -1,0 +1,53 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/GitHub/Adventure_puzzle/MyProject2 5.2/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Untitled_HLOD0_Instancing.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/C/VR/0LAVFHBFPQHWQIE58DO5WF.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalObjects__/Untitled/4/HU/B285Y38RMUAD5X0BOB317C.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalObjects__/Untitled/B/8X/IY4PEMN9UZYDE7BEBHFW5H.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalObjects__/Untitled/1/A5/R3LGPWB6PMS7IVCUS30K59.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalObjects__/Untitled/8/WO/VW6BB6ON1O5P9P6D4TNIKG.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalObjects__/Untitled/A/3B/C169NY21IYHWNPNC5K8H2X.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/C/JJ/2KM5RW3RB8MQTC5Z5QAP86.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/D/U3/F9ZCV1ZQZIEFW41ASA7N1E.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/D/FV/1KGJYU8K12XHN6XNLSYMBQ.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/1/JL/ZK9VQR5UXVP37810TVO5YO.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/7/L8/Y18E0V91UKJME7Q2OB3P5K.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/0/YK/K6UPO231BY2JGT7QL36BEO.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/E/7X/0GCTIMNEBVF8AOXPOXOJMW.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/__ExternalActors__/Untitled/3/0C/B2JMGSH9XFZI7GT8M36JMF.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Untitled.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/Minimal_Default.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/Advanced_Lighting.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/StarterMap_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/StarterMap.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/StarterMap.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/StarterContent/Maps/StarterMap_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_1_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_1.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_4_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_4.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_3_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_3.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Overview_Map_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Overview_Map.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_5_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_5.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/Map_2_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/Map_2.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_2.umap",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Isometric-Interiors/Maps/Map_2_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/LivingRoom_BuiltData.uasset",
+				"C:/Users/wikig/OneDrive/Dokumenty/GitHub/Adventure_puzzle/MyProject2/Content/Levels/LivingRoom.umap"
+			]
+		}
+	]
+}
