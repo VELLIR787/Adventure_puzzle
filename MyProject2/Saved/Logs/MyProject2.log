@@ -5880,3 +5880,1150 @@ Script Stack (0 frames) :
 [2023.06.01-09.08.16:036][ 14]AssetCheck: New page: Asset Save: Bedroom
 [2023.06.01-09.08.16:036][ 14]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Bedroom.Bedroom
 [2023.06.01-09.08.17:405][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.01-09.10.22:110][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.10.22:120][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.10.22:120][553]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:10:22)
+[2023.06.01-09.10.22:120][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.10.22:128][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008464s)
+[2023.06.01-09.10.22:128][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.008503s)
+[2023.06.01-09.10.22:128][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.10.22:128][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.10.22:129][553]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.10.22:129][553]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2023.06.01-09.10.22:159][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.06.01-09.10.22:162][553]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.10.22:162][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.10.22:162][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.10.22:163][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.10.22:163][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.10.22:163][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.10.22:165][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.10.22:195][553]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.10.22:195][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.10.22:195][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.10.22:195][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.10.22:196][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2023.06.01-09.10.22:196][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2023.06.01-09.10.22:198][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2023.06.01-09.10.22:198][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2023.06.01-09.10.22:198][553]LogInit: FAudioDevice initialized with ID 53.
+[2023.06.01-09.10.22:198][553]LogAudio: Display: Audio Device (ID: 53) registered with world 'Bedroom'.
+[2023.06.01-09.10.22:198][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2023.06.01-09.10.22:201][553]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.10.22:205][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.10.22
+[2023.06.01-09.10.22:205][553]LogWorld: Bringing up level for play took: 0.004230
+[2023.06.01-09.10.22:207][553]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2023.06.01-09.10.22:208][553]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.10.22:209][553]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.10.22:295][553]PIE: Server logged in
+[2023.06.01-09.10.22:296][553]PIE: Play in editor total start time 0,176 seconds.
+[2023.06.01-09.10.22:333][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.22:334][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.22:334][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.27:029][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.10.27:029][887]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.10.27:033][887]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.10.27:033][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.10.27:038][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.10.27:044][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.10.27:078][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.10.27:078][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2023.06.01-09.10.27:078][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.06.01-09.10.27:079][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.06.01-09.10.27:084][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.10.27:088][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.06.01-09.10.27:109][887]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.27:109][887]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.27:110][887]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.27:124][888]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2023.06.01-09.10.27:152][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.06.01-09.10.30:260][ 83]BlueprintLog: New page: Compile KitchenEntrance
+[2023.06.01-09.10.30:335][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.06.01-09.10.31:568][145]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.10.31:576][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.10.31:576][145]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:10:31)
+[2023.06.01-09.10.31:576][145]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.10.31:585][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007413s)
+[2023.06.01-09.10.31:585][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007450s)
+[2023.06.01-09.10.31:585][145]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.10.31:585][145]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.10.31:585][145]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.10.31:586][145]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2023.06.01-09.10.31:611][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.06.01-09.10.31:613][145]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.10.31:613][145]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.10.31:613][145]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.10.31:613][145]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.10.31:613][145]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.10.31:613][145]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.10.31:615][145]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.10.31:645][145]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.10.31:645][145]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.10.31:646][145]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.10.31:646][145]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.10.31:646][145]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2023.06.01-09.10.31:646][145]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2023.06.01-09.10.31:649][145]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2023.06.01-09.10.31:649][145]LogInit: FAudioDevice initialized with ID 54.
+[2023.06.01-09.10.31:649][145]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2023.06.01-09.10.31:649][145]LogAudio: Display: Audio Device (ID: 54) registered with world 'Bedroom'.
+[2023.06.01-09.10.31:649][145]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2023.06.01-09.10.31:652][145]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.10.31:655][145]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.10.31
+[2023.06.01-09.10.31:655][145]LogWorld: Bringing up level for play took: 0.004097
+[2023.06.01-09.10.31:657][145]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2023.06.01-09.10.31:658][145]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.10.31:658][145]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.10.31:747][145]PIE: Server logged in
+[2023.06.01-09.10.31:747][145]PIE: Play in editor total start time 0,172 seconds.
+[2023.06.01-09.10.31:786][145]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.31:787][145]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.10.31:788][145]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.11.06:038][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.11.06:039][663]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.11.06:042][663]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.11.06:043][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.11.06:048][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.11.06:054][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.11.06:088][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.11.06:088][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2023.06.01-09.11.06:088][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.06.01-09.11.06:090][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.06.01-09.11.06:095][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.11.06:099][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.01-09.11.06:135][663]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.11.06:136][663]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.11.06:136][663]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.11.06:150][664]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2023.06.01-09.11.06:176][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.06.01-09.11.34:528][553]LogContentBrowser: Deferred new asset file creation: First_Digit1
+[2023.06.01-09.11.34:559][553]LogContentBrowser: Creating deferred item: First_Digit1
+[2023.06.01-09.11.34:581][554]LogContentBrowser: Renaming the item being created (Deferred Item: First_Digit1).
+[2023.06.01-09.11.41:183][ 19]LogContentBrowser: Attempting asset rename: First_Digit1 -> Second_Digit
+[2023.06.01-09.11.41:226][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.06.01-09.11.41:250][ 19]LogContentBrowser: End creating deferred item First_Digit1
+[2023.06.01-09.11.41:252][ 19]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.11.43:003][114]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Second_Digit.Second_Digit
+[2023.06.01-09.11.43:003][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.11.43:003][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.11.52:026][744]BlueprintLog: New page: Compile Second_Digit
+[2023.06.01-09.11.52:089][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.01-09.11.52:502][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.11.52:583][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Second_Digit" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Second_Digit.uasset" SILENT=true
+[2023.06.01-09.11.52:587][758]LogSavePackage: Moving output files for package: /Game/Blueprints/Second_Digit
+[2023.06.01-09.11.52:587][758]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Second_Digit718552F54FED8CF6354B53B3C5CFC529.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Second_Digit.uasset'
+[2023.06.01-09.11.52:597][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 4.88 sec)
+[2023.06.01-09.11.52:605][758]AssetCheck: New page: Asset Save: Second_Digit
+[2023.06.01-09.11.52:605][758]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Second_Digit.Second_Digit
+[2023.06.01-09.11.53:080][787]LogViewport: Scene viewport resized to 1056x685, mode Windowed.
+[2023.06.01-09.12.00:660][183]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.12.00:660][183]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.12.00:661][183]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_0
+[2023.06.01-09.12.00:663][183]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_0
+[2023.06.01-09.12.01:334][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.12.01:334][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.12.01:337][227]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_1
+[2023.06.01-09.12.01:338][227]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_1
+[2023.06.01-09.12.25:494][621]Cmd: DELETE
+[2023.06.01-09.12.25:494][621]Cmd: ACTOR DELETE
+[2023.06.01-09.12.25:509][621]LogEditorActor: Deleted Actor: Second_Digit_C
+[2023.06.01-09.12.25:538][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.06.01-09.12.25:540][621]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2023.06.01-09.12.30:632][920]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.12.30:719][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.12.30:741][922]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.12.32:735][ 45]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.12.32:736][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.12.32:736][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.14.26:466][362]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.14.26:466][362]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.14.26:467][362]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_2
+[2023.06.01-09.14.26:468][362]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_2
+[2023.06.01-09.14.27:342][432]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.14.27:342][432]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.14.27:344][432]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_3
+[2023.06.01-09.14.27:346][432]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_3
+[2023.06.01-09.14.51:906][ 94]Cmd: DELETE
+[2023.06.01-09.14.51:906][ 94]Cmd: ACTOR DELETE
+[2023.06.01-09.14.51:923][ 94]LogEditorActor: Deleted Actor: Second_Digit_C
+[2023.06.01-09.14.51:952][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.06.01-09.14.51:954][ 94]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2023.06.01-09.15.49:823][931]LogSlate: Took 0.004593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.06.01-09.16.32:534][482]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.06.01-09.16.32:534][482]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.06.01-09.16.52:896][751]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.06.01-09.17.20:375][ 48]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.17.20:375][ 48]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.17.20:376][ 48]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_4
+[2023.06.01-09.17.20:378][ 48]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_4
+[2023.06.01-09.17.21:381][116]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.17.21:381][116]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.17.21:384][116]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_5
+[2023.06.01-09.17.21:385][116]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_5
+[2023.06.01-09.17.48:819][974]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.17.48:901][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.01-09.17.49:405][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.17.49:490][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.17.49:496][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.17.49:496][  0]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrameFEC0E3AC48B44C17C5DFB5993FD78473.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.17.49:505][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 4.98 sec)
+[2023.06.01-09.17.49:514][  0]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.17.49:514][  0]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.17.52:016][165]Cmd: DELETE
+[2023.06.01-09.17.52:016][165]Cmd: ACTOR DELETE
+[2023.06.01-09.17.52:032][165]LogEditorActor: Deleted Actor: Second_Digit_C
+[2023.06.01-09.17.52:061][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.06.01-09.17.52:066][165]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2023.06.01-09.17.53:393][259]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.17.53:401][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.17.53:401][259]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:17:53)
+[2023.06.01-09.17.53:402][259]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.17.53:409][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007608s)
+[2023.06.01-09.17.53:409][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007653s)
+[2023.06.01-09.17.53:409][259]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.17.53:410][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.17.53:410][259]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.17.53:410][259]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2023.06.01-09.17.53:439][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.01-09.17.53:440][259]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.17.53:440][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.17.53:440][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.17.53:441][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.17.53:441][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.17.53:441][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.17.53:444][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.17.53:474][259]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.17.53:474][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.17.53:474][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.17.53:474][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.17.53:475][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2023.06.01-09.17.53:475][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2023.06.01-09.17.53:477][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2023.06.01-09.17.53:477][259]LogInit: FAudioDevice initialized with ID 55.
+[2023.06.01-09.17.53:477][259]LogAudio: Display: Audio Device (ID: 55) registered with world 'Bedroom'.
+[2023.06.01-09.17.53:477][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2023.06.01-09.17.53:477][259]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2023.06.01-09.17.53:480][259]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.17.53:485][259]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.17.53
+[2023.06.01-09.17.53:485][259]LogWorld: Bringing up level for play took: 0.004124
+[2023.06.01-09.17.53:487][259]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2023.06.01-09.17.53:488][259]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.17.53:488][259]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.17.53:574][259]PIE: Server logged in
+[2023.06.01-09.17.53:575][259]PIE: Play in editor total start time 0,173 seconds.
+[2023.06.01-09.17.53:610][259]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.17.53:610][259]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.17.53:610][259]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.17.56:956][499]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.17.56:956][499]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.18.00:186][761]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.18.00:186][761]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.18.00:222][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.18.00:222][761]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.18.00:226][761]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.18.00:226][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.18.00:231][761]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.18.00:237][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.18.00:272][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.18.00:272][761]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2023.06.01-09.18.00:272][761]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.01-09.18.00:274][761]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.01-09.18.00:284][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.01-09.18.00:303][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.00:303][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.00:304][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.00:308][762]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2023.06.01-09.18.00:338][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.06.01-09.18.47:740][411]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.18.47:748][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.18.47:748][411]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:18:47)
+[2023.06.01-09.18.47:749][411]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.18.47:757][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007382s)
+[2023.06.01-09.18.47:757][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007418s)
+[2023.06.01-09.18.47:757][411]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.18.47:757][411]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.18.47:757][411]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.18.47:758][411]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2023.06.01-09.18.47:787][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.06.01-09.18.47:789][411]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.18.47:789][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.18.47:789][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.18.47:789][411]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.18.47:789][411]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.18.47:789][411]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.18.47:791][411]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.18.47:820][411]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.18.47:820][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.18.47:820][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.18.47:820][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.18.47:820][411]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2023.06.01-09.18.47:820][411]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2023.06.01-09.18.47:824][411]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2023.06.01-09.18.47:824][411]LogInit: FAudioDevice initialized with ID 56.
+[2023.06.01-09.18.47:824][411]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2023.06.01-09.18.47:824][411]LogAudio: Display: Audio Device (ID: 56) registered with world 'Bedroom'.
+[2023.06.01-09.18.47:824][411]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2023.06.01-09.18.47:827][411]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.18.47:830][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.18.47
+[2023.06.01-09.18.47:831][411]LogWorld: Bringing up level for play took: 0.004073
+[2023.06.01-09.18.47:833][411]LogOnline: OSS: Created online subsystem instance for: :Context_91
+[2023.06.01-09.18.47:834][411]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.18.47:834][411]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.18.47:922][411]PIE: Server logged in
+[2023.06.01-09.18.47:922][411]PIE: Play in editor total start time 0,174 seconds.
+[2023.06.01-09.18.47:961][411]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.47:962][411]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.47:962][411]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.51:127][643]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.18.51:127][643]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.18.52:717][772]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.18.52:718][772]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.18.57:642][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.18.57:642][165]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.18.57:647][165]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.18.57:647][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.18.57:652][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.18.57:658][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.18.57:693][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.18.57:694][165]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2023.06.01-09.18.57:694][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.01-09.18.57:696][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.01-09.18.57:700][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.18.57:704][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.18.57:724][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.57:724][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.57:725][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.18.57:729][166]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2023.06.01-09.18.57:758][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.01-09.19.50:963][767]LogDerivedDataCache: C:/Users/MK170/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.156 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3119 files in 4798 folders with total size 518 MiB.
+[2023.06.01-09.19.58:515][466]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.19.58:593][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.01-09.19.59:768][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.19.59:777][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.19.59:778][540]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:19:59)
+[2023.06.01-09.19.59:778][540]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.19.59:784][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007330s)
+[2023.06.01-09.19.59:784][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007362s)
+[2023.06.01-09.19.59:785][540]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.19.59:785][540]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.19.59:785][540]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.19.59:785][540]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2023.06.01-09.19.59:814][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.01-09.19.59:817][540]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.19.59:817][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.19.59:817][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.19.59:818][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.19.59:818][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.19.59:818][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.19.59:819][540]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.19.59:848][540]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.19.59:848][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.19.59:848][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.19.59:848][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.19.59:850][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2023.06.01-09.19.59:850][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2023.06.01-09.19.59:852][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2023.06.01-09.19.59:852][540]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2023.06.01-09.19.59:852][540]LogInit: FAudioDevice initialized with ID 57.
+[2023.06.01-09.19.59:852][540]LogAudio: Display: Audio Device (ID: 57) registered with world 'Bedroom'.
+[2023.06.01-09.19.59:852][540]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2023.06.01-09.19.59:855][540]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.19.59:859][540]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.19.59
+[2023.06.01-09.19.59:859][540]LogWorld: Bringing up level for play took: 0.004272
+[2023.06.01-09.19.59:861][540]LogOnline: OSS: Created online subsystem instance for: :Context_92
+[2023.06.01-09.19.59:862][540]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.19.59:863][540]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.19.59:949][540]PIE: Server logged in
+[2023.06.01-09.19.59:950][540]PIE: Play in editor total start time 0,173 seconds.
+[2023.06.01-09.19.59:987][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.19.59:987][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.19.59:987][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.20.02:511][719]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.20.02:511][719]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.20.05:099][921]LogScript: Warning: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2023.06.01-09.20.05:099][921]LogScript: Warning: Script Msg called by: YellowFrame_C /Temp/Game/Levels/UEDPIE_0_Kitchen_LevelInstance_c4bb0b81fbd6c5f7_1.Kitchen:PersistentLevel.YellowFrame_C_1
+[2023.06.01-09.20.07:674][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.20.07:674][122]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.20.07:678][122]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.20.07:678][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.20.07:683][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.20.07:689][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.20.07:725][122]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.20.07:726][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2023.06.01-09.20.07:726][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.01-09.20.07:727][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.01-09.20.07:732][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.20.07:736][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.01-09.20.07:755][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.20.07:755][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.20.07:755][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.20.07:759][123]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2023.06.01-09.20.07:788][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.20.45:948][922]LogViewport: Scene viewport resized to 1056x685, mode Windowed.
+[2023.06.01-09.21.04:961][177]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.22.19:658][ 30]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.22.19:742][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.06.01-09.22.20:014][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.22.20:092][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.22.20:098][ 40]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.22.20:098][ 40]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrameB6B90E4B4C2515CFA52332A22DF62CDA.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.22.20:109][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 5.08 sec)
+[2023.06.01-09.22.20:117][ 40]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.22.20:117][ 40]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.22.21:880][166]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.22.21:889][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.22.21:889][166]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:22:21)
+[2023.06.01-09.22.21:889][166]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.22.21:897][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007907s)
+[2023.06.01-09.22.21:897][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007942s)
+[2023.06.01-09.22.21:897][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.22.21:898][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.22.21:898][166]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.22.21:898][166]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2023.06.01-09.22.21:927][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.01-09.22.21:930][166]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.22.21:930][166]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.22.21:930][166]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.22.21:931][166]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.22.21:931][166]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.22.21:931][166]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.22.21:932][166]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.22.21:962][166]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.22.21:962][166]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.22.21:962][166]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.22.21:962][166]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.22.21:965][166]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2023.06.01-09.22.21:965][166]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2023.06.01-09.22.21:967][166]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2023.06.01-09.22.21:967][166]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2023.06.01-09.22.21:967][166]LogInit: FAudioDevice initialized with ID 58.
+[2023.06.01-09.22.21:967][166]LogAudio: Display: Audio Device (ID: 58) registered with world 'Bedroom'.
+[2023.06.01-09.22.21:967][166]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2023.06.01-09.22.21:970][166]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.22.21:973][166]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.22.21
+[2023.06.01-09.22.21:974][166]LogWorld: Bringing up level for play took: 0.004709
+[2023.06.01-09.22.21:976][166]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2023.06.01-09.22.21:977][166]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.22.21:978][166]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.22.22:068][166]PIE: Server logged in
+[2023.06.01-09.22.22:069][166]PIE: Play in editor total start time 0,18 seconds.
+[2023.06.01-09.22.22:103][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.22:103][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.22:103][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.30:354][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.22.30:354][801]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.22.30:360][801]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.22.30:361][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.22.30:365][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.22.30:372][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.22.30:409][801]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.22.30:409][801]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2023.06.01-09.22.30:409][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.01-09.22.30:411][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.01-09.22.30:414][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.22.30:420][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.06.01-09.22.30:438][801]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.30:438][801]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.30:439][801]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.30:444][802]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2023.06.01-09.22.30:472][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.06.01-09.22.37:297][284]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.22.37:378][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.06.01-09.22.38:861][358]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.22.38:869][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.22.38:869][358]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:22:38)
+[2023.06.01-09.22.38:869][358]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.22.38:878][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008326s)
+[2023.06.01-09.22.38:878][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.008361s)
+[2023.06.01-09.22.38:878][358]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.22.38:878][358]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.22.38:879][358]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.22.38:879][358]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2023.06.01-09.22.38:908][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.06.01-09.22.38:912][358]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.22.38:912][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.22.38:912][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.22.38:912][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.22.38:912][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.22.38:912][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.22.38:914][358]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.22.38:944][358]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.22.38:944][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.22.38:944][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.22.38:944][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.22.38:946][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2023.06.01-09.22.38:946][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2023.06.01-09.22.38:947][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2023.06.01-09.22.38:947][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2023.06.01-09.22.38:947][358]LogInit: FAudioDevice initialized with ID 59.
+[2023.06.01-09.22.38:947][358]LogAudio: Display: Audio Device (ID: 59) registered with world 'Bedroom'.
+[2023.06.01-09.22.38:947][358]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2023.06.01-09.22.38:950][358]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.22.38:954][358]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.22.38
+[2023.06.01-09.22.38:954][358]LogWorld: Bringing up level for play took: 0.004118
+[2023.06.01-09.22.38:956][358]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2023.06.01-09.22.38:957][358]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.22.38:958][358]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.22.39:046][358]PIE: Server logged in
+[2023.06.01-09.22.39:047][358]PIE: Play in editor total start time 0,178 seconds.
+[2023.06.01-09.22.39:098][358]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.39:098][358]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.39:098][358]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.46:035][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.22.46:035][890]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.22.46:039][890]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.22.46:039][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.22.46:044][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.22.46:050][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.22.46:087][890]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.22.46:087][890]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2023.06.01-09.22.46:087][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.01-09.22.46:088][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.01-09.22.46:093][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.22.46:097][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.01-09.22.46:115][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.46:116][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.46:116][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.22.46:121][891]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2023.06.01-09.22.46:152][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.06.01-09.22.50:093][102]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.22.50:093][102]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.22.50:094][102]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_6
+[2023.06.01-09.22.50:096][102]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_6
+[2023.06.01-09.22.50:636][133]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.22.50:636][133]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Second_Digit.Second_Digit_C
+[2023.06.01-09.22.50:638][133]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_7
+[2023.06.01-09.22.50:639][133]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Second_Digit.Second_Digit as actor: Second_Digit_C /Game/Levels/Bedroom.Bedroom:PersistentLevel.Second_Digit_C_7
+[2023.06.01-09.23.35:513][836]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.23.35:595][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.06.01-09.23.39:370][ 61]Cmd: DELETE
+[2023.06.01-09.23.39:370][ 61]Cmd: ACTOR DELETE
+[2023.06.01-09.23.39:386][ 61]LogEditorActor: Deleted Actor: Second_Digit_C
+[2023.06.01-09.23.39:417][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.01-09.23.39:421][ 61]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2023.06.01-09.23.40:117][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.23.40:126][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.23.40:126][110]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:23:40)
+[2023.06.01-09.23.40:126][110]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.23.40:133][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007477s)
+[2023.06.01-09.23.40:133][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007513s)
+[2023.06.01-09.23.40:133][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.23.40:133][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.23.40:134][110]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.23.40:134][110]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2023.06.01-09.23.40:163][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.06.01-09.23.40:164][110]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.23.40:164][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.23.40:164][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.23.40:164][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.23.40:164][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.23.40:164][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.23.40:167][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.23.40:196][110]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.23.40:196][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.23.40:196][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.23.40:196][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.23.40:198][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2023.06.01-09.23.40:198][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2023.06.01-09.23.40:199][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2023.06.01-09.23.40:199][110]LogInit: FAudioDevice initialized with ID 60.
+[2023.06.01-09.23.40:199][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2023.06.01-09.23.40:199][110]LogAudio: Display: Audio Device (ID: 60) registered with world 'Bedroom'.
+[2023.06.01-09.23.40:199][110]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2023.06.01-09.23.40:202][110]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.23.40:206][110]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.23.40
+[2023.06.01-09.23.40:206][110]LogWorld: Bringing up level for play took: 0.004014
+[2023.06.01-09.23.40:208][110]LogOnline: OSS: Created online subsystem instance for: :Context_95
+[2023.06.01-09.23.40:210][110]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.23.40:210][110]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.23.40:296][110]PIE: Server logged in
+[2023.06.01-09.23.40:297][110]PIE: Play in editor total start time 0,172 seconds.
+[2023.06.01-09.23.40:333][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.40:334][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.40:334][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.45:744][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.23.45:744][521]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.23.45:750][521]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.23.45:750][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.23.45:754][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.23.45:760][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.23.45:796][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.23.45:796][521]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2023.06.01-09.23.45:797][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.01-09.23.45:798][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.01-09.23.45:807][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.01-09.23.45:827][521]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.45:828][521]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.45:828][521]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.23.45:834][522]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2023.06.01-09.23.45:863][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.06.01-09.23.53:240][112]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.23.53:321][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.06.01-09.23.53:739][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.23.53:828][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.23.53:834][134]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.23.53:834][134]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrameC287CEB1466505181A924D9D2917B06F.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.23.53:846][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 5.18 sec)
+[2023.06.01-09.23.53:853][134]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.23.53:853][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.24.16:381][480]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.24.16:478][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.06.01-09.24.17:316][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.24.17:387][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.24.17:393][521]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.24.17:393][521]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrame7A2BB0C74518EF57D8AFCFA78EC44A86.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.24.17:403][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 5.27 sec)
+[2023.06.01-09.24.17:411][521]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.24.17:411][521]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.24.18:448][584]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.24.18:456][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.24.18:456][584]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:24:18)
+[2023.06.01-09.24.18:457][584]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.24.18:465][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007710s)
+[2023.06.01-09.24.18:465][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007744s)
+[2023.06.01-09.24.18:465][584]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.24.18:465][584]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.24.18:465][584]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.24.18:466][584]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2023.06.01-09.24.18:495][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.06.01-09.24.18:498][584]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.24.18:498][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.24.18:498][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.24.18:499][584]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.24.18:499][584]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.24.18:499][584]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.24.18:501][584]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.24.18:531][584]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.24.18:531][584]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.24.18:531][584]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.24.18:531][584]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.24.18:533][584]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2023.06.01-09.24.18:533][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2023.06.01-09.24.18:534][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2023.06.01-09.24.18:534][584]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2023.06.01-09.24.18:534][584]LogInit: FAudioDevice initialized with ID 61.
+[2023.06.01-09.24.18:534][584]LogAudio: Display: Audio Device (ID: 61) registered with world 'Bedroom'.
+[2023.06.01-09.24.18:534][584]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2023.06.01-09.24.18:538][584]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.24.18:542][584]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.24.18
+[2023.06.01-09.24.18:542][584]LogWorld: Bringing up level for play took: 0.004274
+[2023.06.01-09.24.18:544][584]LogOnline: OSS: Created online subsystem instance for: :Context_96
+[2023.06.01-09.24.18:545][584]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.24.18:545][584]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.24.18:635][584]PIE: Server logged in
+[2023.06.01-09.24.18:636][584]PIE: Play in editor total start time 0,18 seconds.
+[2023.06.01-09.24.18:688][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.18:689][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.18:689][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.26:875][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.24.26:875][218]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.24.26:880][218]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.24.26:880][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.24.26:885][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.24.26:891][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.24.26:928][218]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.24.26:928][218]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2023.06.01-09.24.26:928][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.06.01-09.24.26:930][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2023.06.01-09.24.26:934][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.24.26:937][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.01-09.24.26:957][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.26:957][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.26:958][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.26:963][219]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2023.06.01-09.24.26:992][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.01-09.24.48:043][965]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.24.48:126][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.06.01-09.24.48:728][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.24.48:812][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.24.48:818][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.24.48:818][  0]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrame4AC6EE5546A2305065ED2A9B8E97D069.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.24.48:826][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 5.37 sec)
+[2023.06.01-09.24.48:833][  0]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.24.48:833][  0]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.24.52:100][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.24.52:109][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.24.52:109][242]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:24:52)
+[2023.06.01-09.24.52:109][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.24.52:116][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007381s)
+[2023.06.01-09.24.52:116][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007417s)
+[2023.06.01-09.24.52:116][242]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.24.52:117][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.24.52:117][242]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.24.52:117][242]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2023.06.01-09.24.52:146][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.01-09.24.52:148][242]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2023.06.01-09.24.52:148][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.24.52:148][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.24.52:148][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.24.52:148][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.24.52:148][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.24.52:149][242]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.24.52:149][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.24.52:149][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.24.52:149][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.24.52:149][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.24.52:149][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.24.52:151][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.24.52:180][242]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.24.52:180][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.24.52:180][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.24.52:180][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.24.52:182][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2023.06.01-09.24.52:182][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2023.06.01-09.24.52:183][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2023.06.01-09.24.52:183][242]LogInit: FAudioDevice initialized with ID 62.
+[2023.06.01-09.24.52:183][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2023.06.01-09.24.52:183][242]LogAudio: Display: Audio Device (ID: 62) registered with world 'Bedroom'.
+[2023.06.01-09.24.52:183][242]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2023.06.01-09.24.52:187][242]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.24.52:191][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.24.52
+[2023.06.01-09.24.52:191][242]LogWorld: Bringing up level for play took: 0.004099
+[2023.06.01-09.24.52:193][242]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2023.06.01-09.24.52:194][242]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.24.52:194][242]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.24.52:280][242]PIE: Server logged in
+[2023.06.01-09.24.52:281][242]PIE: Play in editor total start time 0,173 seconds.
+[2023.06.01-09.24.52:316][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.52:317][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.24.52:317][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.00:966][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.25.00:966][905]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.25.00:970][905]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.25.00:971][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.25.00:975][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.25.00:982][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.25.01:018][905]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.25.01:018][905]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2023.06.01-09.25.01:018][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2023.06.01-09.25.01:020][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2023.06.01-09.25.01:023][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.25.01:029][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.06.01-09.25.01:046][905]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.01:047][905]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.01:047][905]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.01:051][906]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2023.06.01-09.25.01:082][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.06.01-09.25.09:672][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.06.01-09.25.12:789][512]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.01-09.25.20:812][117]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.25.20:812][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.25.25:396][477]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.25.25:398][477]LogBlueprint: Error: [AssetLog] D:\GitHub\Adventure_puzzle\MyProject2\Content\Blueprints\Kitchen_BPs2\YellowFrame.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2023.06.01-09.25.25:473][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.01-09.25.25:786][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.25.25:854][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.25.25:861][490]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.25.25:861][490]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrame908E6B484E13B2054BC4639B73B7D7A1.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.25.25:869][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 5.45 sec)
+[2023.06.01-09.25.25:877][490]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.25.25:877][490]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.25.28:771][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.06.01-09.25.30:233][667]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.01-09.25.30:684][667]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.25.30:684][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.25.30:695][667]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.25.30:695][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.25.30:734][667]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/sECOND_Digit.sECOND_Digit
+	Asset Type: WidgetBlueprint
+[2023.06.01-09.25.31:340][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.01-09.25.31:373][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.06.01-09.25.31:400][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.06.01-09.25.34:393][898]LogContentBrowser: Deferred new asset file creation: First_Digit1
+[2023.06.01-09.25.34:413][898]LogContentBrowser: Creating deferred item: First_Digit1
+[2023.06.01-09.25.34:426][899]LogContentBrowser: Renaming the item being created (Deferred Item: First_Digit1).
+[2023.06.01-09.25.39:575][330]LogContentBrowser: Attempting asset rename: First_Digit1 -> Second_Digit
+[2023.06.01-09.25.39:615][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.06.01-09.25.39:631][330]LogContentBrowser: End creating deferred item First_Digit1
+[2023.06.01-09.25.40:845][413]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Second_Digit.Second_Digit
+[2023.06.01-09.25.40:846][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.25.40:846][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.25.40:866][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.25.40:866][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.25.47:663][898]BlueprintLog: New page: Compile Second_Digit
+[2023.06.01-09.25.47:707][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.01-09.25.48:096][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.25.48:157][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Second_Digit" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/UI/Second_Digit.uasset" SILENT=true
+[2023.06.01-09.25.48:163][919]LogSavePackage: Moving output files for package: /Game/UI/Second_Digit
+[2023.06.01-09.25.48:163][919]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Second_Digit6D9AD1C7412A7CA595C7F4B63A707F6D.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/UI/Second_Digit.uasset'
+[2023.06.01-09.25.48:174][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 5.53 sec)
+[2023.06.01-09.25.48:181][919]AssetCheck: New page: Asset Save: Second_Digit
+[2023.06.01-09.25.48:181][919]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Second_Digit.Second_Digit
+[2023.06.01-09.25.53:288][336]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.25.53:337][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.25.53:854][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.25.53:920][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.25.53:925][362]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.25.53:927][362]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrameA0747CFF405EAF60383991BE95E3BD13.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.25.53:935][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 5.61 sec)
+[2023.06.01-09.25.53:941][362]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.25.53:941][362]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.25.55:096][448]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.25.55:105][448]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.01-09.25.55:106][448]LogPlayLevel: [PlayLevel] Compiling Second_Digit before play...
+[2023.06.01-09.25.55:169][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.06.01-09.25.55:173][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 67 ms (1 blueprints)
+[2023.06.01-09.25.55:173][448]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:25:55)
+[2023.06.01-09.25.55:173][448]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.25.55:179][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006871s)
+[2023.06.01-09.25.55:179][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.006902s)
+[2023.06.01-09.25.55:179][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.25.55:179][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.25.55:180][448]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.25.55:180][448]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2023.06.01-09.25.55:206][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.06.01-09.25.55:208][448]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.25.55:208][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.25.55:208][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.25.55:208][448]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.25.55:208][448]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.25.55:208][448]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.25.55:210][448]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.25.55:240][448]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.25.55:240][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.25.55:240][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.25.55:240][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.25.55:240][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2023.06.01-09.25.55:240][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2023.06.01-09.25.55:243][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2023.06.01-09.25.55:243][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2023.06.01-09.25.55:243][448]LogInit: FAudioDevice initialized with ID 63.
+[2023.06.01-09.25.55:243][448]LogAudio: Display: Audio Device (ID: 63) registered with world 'Bedroom'.
+[2023.06.01-09.25.55:243][448]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2023.06.01-09.25.55:246][448]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.25.55:250][448]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.25.55
+[2023.06.01-09.25.55:251][448]LogWorld: Bringing up level for play took: 0.004138
+[2023.06.01-09.25.55:253][448]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2023.06.01-09.25.55:254][448]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.25.55:254][448]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.25.55:301][448]PIE: Server logged in
+[2023.06.01-09.25.55:302][448]PIE: Play in editor total start time 0,197 seconds.
+[2023.06.01-09.25.55:339][448]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.55:339][448]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.25.55:340][448]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.24:976][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.26.24:976][822]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.26.24:982][822]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.26.24:982][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.26.24:986][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.26.24:992][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.26.25:018][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.26.25:019][822]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2023.06.01-09.26.25:019][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2023.06.01-09.26.25:021][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2023.06.01-09.26.25:030][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.01-09.26.25:048][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.25:048][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.25:049][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.25:067][823]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2023.06.01-09.26.25:094][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.26.37:681][896]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.26.37:731][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.06.01-09.26.38:198][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.26.38:273][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.26.38:280][918]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.26.38:280][918]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrameB11D44D04D403DF7D4EC02B0640FB6E1.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.26.38:288][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 5.70 sec)
+[2023.06.01-09.26.38:296][918]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.26.38:296][918]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.26.39:164][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.26.39:173][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.26.39:174][981]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:26:39)
+[2023.06.01-09.26.39:174][981]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.26.39:181][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007480s)
+[2023.06.01-09.26.39:181][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007515s)
+[2023.06.01-09.26.39:181][981]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.26.39:181][981]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.26.39:181][981]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.26.39:182][981]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2023.06.01-09.26.39:208][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.06.01-09.26.39:211][981]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.26.39:211][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.26.39:211][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.26.39:212][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.26.39:212][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.26.39:212][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.26.39:214][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.26.39:243][981]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.26.39:243][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.26.39:243][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.26.39:243][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.26.39:243][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2023.06.01-09.26.39:243][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2023.06.01-09.26.39:246][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2023.06.01-09.26.39:246][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2023.06.01-09.26.39:246][981]LogInit: FAudioDevice initialized with ID 64.
+[2023.06.01-09.26.39:246][981]LogAudio: Display: Audio Device (ID: 64) registered with world 'Bedroom'.
+[2023.06.01-09.26.39:246][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2023.06.01-09.26.39:248][981]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.26.39:252][981]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.26.39
+[2023.06.01-09.26.39:253][981]LogWorld: Bringing up level for play took: 0.004112
+[2023.06.01-09.26.39:254][981]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2023.06.01-09.26.39:256][981]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.26.39:257][981]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.26.39:303][981]PIE: Server logged in
+[2023.06.01-09.26.39:304][981]PIE: Play in editor total start time 0,131 seconds.
+[2023.06.01-09.26.39:339][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.39:339][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.39:340][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.45:387][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.26.45:387][451]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.26.45:391][451]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.26.45:392][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.26.45:396][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.26.45:403][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.26.45:431][451]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.26.45:431][451]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2023.06.01-09.26.45:431][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.06.01-09.26.45:433][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.06.01-09.26.45:436][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.26.45:440][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.26.45:459][451]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.45:460][451]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.45:460][451]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.45:464][452]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2023.06.01-09.26.45:492][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.06.01-09.26.56:311][388]BlueprintLog: New page: Compile YellowFrame
+[2023.06.01-09.26.56:363][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.06.01-09.26.56:784][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.26.56:856][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Kitchen_BPs2/YellowFrame" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset" SILENT=true
+[2023.06.01-09.26.56:863][407]LogSavePackage: Moving output files for package: /Game/Blueprints/Kitchen_BPs2/YellowFrame
+[2023.06.01-09.26.56:863][407]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/YellowFrame97B0EA4E44132B760FC83E8071479A1F.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Kitchen_BPs2/YellowFrame.uasset'
+[2023.06.01-09.26.56:873][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 5.79 sec)
+[2023.06.01-09.26.56:880][407]AssetCheck: New page: Asset Save: YellowFrame
+[2023.06.01-09.26.56:880][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Kitchen_BPs2/YellowFrame.YellowFrame
+[2023.06.01-09.26.57:722][468]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.01-09.26.57:731][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.01-09.26.57:731][468]PIE: New page: PIE session: Bedroom (1 cze 2023, 13:26:57)
+[2023.06.01-09.26.57:731][468]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.26.57:737][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007051s)
+[2023.06.01-09.26.57:738][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bedroom.Bedroom to /Game/Levels/UEDPIE_0_Bedroom.Bedroom (0.007084s)
+[2023.06.01-09.26.57:738][468]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.01-09.26.57:738][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.26.57:738][468]LogAIModule: Creating AISystem for world Bedroom
+[2023.06.01-09.26.57:738][468]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2023.06.01-09.26.57:765][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.01-09.26.57:768][468]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.01-09.26.57:768][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.01-09.26.57:768][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.01-09.26.57:769][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.01-09.26.57:769][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.01-09.26.57:769][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.01-09.26.57:771][468]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.01-09.26.57:800][468]LogAudioMixer: Display: Using Audio Hardware Device 2781 (NVIDIA High Definition Audio)
+[2023.06.01-09.26.57:800][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.01-09.26.57:800][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.01-09.26.57:800][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.01-09.26.57:800][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2023.06.01-09.26.57:800][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2023.06.01-09.26.57:803][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2023.06.01-09.26.57:803][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2023.06.01-09.26.57:803][468]LogInit: FAudioDevice initialized with ID 65.
+[2023.06.01-09.26.57:803][468]LogAudio: Display: Audio Device (ID: 65) registered with world 'Bedroom'.
+[2023.06.01-09.26.57:803][468]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2023.06.01-09.26.57:807][468]LogLoad: Game class is 'GameModeBase'
+[2023.06.01-09.26.57:811][468]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.06.01-11.26.57
+[2023.06.01-09.26.57:811][468]LogWorld: Bringing up level for play took: 0.004217
+[2023.06.01-09.26.57:813][468]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2023.06.01-09.26.57:814][468]LogLevelInstance: Loaded 3 levels in 0 seconds
+[2023.06.01-09.26.57:814][468]LogStreaming: Display: FlushAsyncLoading(-1): 3 QueuedPackages, 0 AsyncPackages
+[2023.06.01-09.26.57:862][468]PIE: Server logged in
+[2023.06.01-09.26.57:863][468]PIE: Play in editor total start time 0,132 seconds.
+[2023.06.01-09.26.57:897][468]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.57:898][468]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.26.57:898][468]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.27.04:437][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.27.04:437][967]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Bedroom
+[2023.06.01-09.27.04:441][967]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.06.01-09.27.04:442][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.27.04:446][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.01-09.27.04:452][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.01-09.27.04:479][967]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.01-09.27.04:479][967]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2023.06.01-09.27.04:479][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.06.01-09.27.04:481][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.06.01-09.27.04:486][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.01-09.27.04:489][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.06.01-09.27.04:508][967]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.27.04:508][967]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.27.04:509][967]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.06.01-09.27.04:513][968]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2023.06.01-09.27.04:541][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.06.01-09.27.05:999][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.01-09.27.06:003][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.27.06:055][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bedroom" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Bedroom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.01-09.27.06:081][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.06.01-09.27.06:106][ 99]LogSavePackage: Moving output files for package: /Game/Levels/Bedroom
+[2023.06.01-09.27.06:106][ 99]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Bedroom14551D0049D59D363FA17FA8F0246143.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Bedroom.umap'
+[2023.06.01-09.27.06:121][ 99]LogFileHelpers: Saving map 'Bedroom' took 0.067
+[2023.06.01-09.27.06:122][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.27.06:125][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kitchen" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.01-09.27.06:151][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.06.01-09.27.06:171][ 99]LogSavePackage: Moving output files for package: /Game/Levels/Kitchen
+[2023.06.01-09.27.06:171][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.06:672][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.07:174][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.07:674][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.08:175][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.08:676][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.09:177][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.09:678][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.10:179][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.10:680][ 99]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.11:181][ 99]LogFileManager: Error: Error moving file '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen565C0C494638A9EEEB8179AE33270538.tmp'.
+[2023.06.01-09.27.11:181][ 99]LogSavePackage: Warning: Failed to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to temp directory
+[2023.06.01-09.27.11:181][ 99]LogSavePackage: Error: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.11:183][ 99]EditorErrors: New page: Save Output
+[2023.06.01-09.27.11:183][ 99]EditorErrors: Warning: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.11:241][ 99]LogFileHelpers: Saving map 'Kitchen' took 5.120
+[2023.06.01-09.27.14:487][ 99]LogSlate: Window 'Message' being destroyed
+[2023.06.01-09.27.14:494][ 99]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/Levels/Kitchen' (Kitchen.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2023.06.01-09.27.14:542][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Second_Digit" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Second_Digit.uasset" SILENT=true
+[2023.06.01-09.27.14:544][ 99]LogSavePackage: Moving output files for package: /Game/Blueprints/Second_Digit
+[2023.06.01-09.27.14:546][ 99]LogSavePackage: Moving '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Second_Digit4BF0611C4C3EDD109B035486F1B3E2C3.tmp' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Blueprints/Second_Digit.uasset'
+[2023.06.01-09.27.15:513][ 99]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2023.06.01-09.27.15:544][ 99]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Levels/Kitchen
+[2023.06.01-09.27.15:544][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.54 sec (total: 15.3 sec)
+[2023.06.01-09.27.15:554][ 99]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.01-09.27.15:554][ 99]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Bedroom.Bedroom
+[2023.06.01-09.27.15:554][ 99]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Second_Digit.Second_Digit
+[2023.06.01-09.27.16:804][186]LogSlate: Window 'Message Log' being destroyed
+[2023.06.01-09.27.16:812][186]LogSlate: Window 'Message Log' being destroyed
+[2023.06.01-09.27.18:636][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.06.01-09.27.18:641][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.01-09.27.18:705][346]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.27.18:708][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kitchen" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.01-09.27.18:734][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.01-09.27.18:750][346]LogSavePackage: Moving output files for package: /Game/Levels/Kitchen
+[2023.06.01-09.27.18:750][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.19:252][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.19:752][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.20:253][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.20:754][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.21:255][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.21:756][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.22:257][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.22:757][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.23:258][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.23:758][346]LogFileManager: Error: Error moving file '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen095833114C9270CDCB149FA07F4382B6.tmp'.
+[2023.06.01-09.27.23:758][346]LogSavePackage: Warning: Failed to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to temp directory
+[2023.06.01-09.27.23:758][346]LogSavePackage: Error: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.23:760][346]EditorErrors: New page: Save Output
+[2023.06.01-09.27.23:760][346]EditorErrors: Warning: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.23:825][346]LogFileHelpers: Saving map 'Kitchen' took 5.120
+[2023.06.01-09.27.25:783][346]LogSlate: Window 'Message' being destroyed
+[2023.06.01-09.27.25:789][346]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/Levels/Kitchen' (Kitchen.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2023.06.01-09.27.25:790][346]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.01-09.27.25:793][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kitchen" FILE="../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.01-09.27.25:821][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.01-09.27.25:839][346]LogSavePackage: Moving output files for package: /Game/Levels/Kitchen
+[2023.06.01-09.27.25:839][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.26:340][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.26:840][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.27:341][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.27:841][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.28:341][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.28:841][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.29:342][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.29:842][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.30:343][346]LogFileManager: Warning: MoveFile was unable to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp' (Error Code 32), retrying in .5s...
+[2023.06.01-09.27.30:843][346]LogFileManager: Error: Error moving file '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to '../../../../../GitHub/Adventure_puzzle/MyProject2/Saved/Kitchen0BE7A3BB4B16016BFCD6EF8DA9D11FC6.tmp'.
+[2023.06.01-09.27.30:843][346]LogSavePackage: Warning: Failed to move '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap' to temp directory
+[2023.06.01-09.27.30:843][346]LogSavePackage: Error: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.30:844][346]EditorErrors: New page: Save Output
+[2023.06.01-09.27.30:844][346]EditorErrors: Warning: Error saving '../../../../../GitHub/Adventure_puzzle/MyProject2/Content/Levels/Kitchen.umap'
+[2023.06.01-09.27.30:850][346]LogFileHelpers: Saving map 'Kitchen' took 5.061
+[2023.06.01-09.27.36:411][346]LogSlate: Window 'Message' being destroyed
+[2023.06.01-09.27.36:417][346]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/Levels/Kitchen' (Kitchen.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2023.06.01-09.27.37:436][346]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2023.06.01-09.27.37:484][346]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Levels/Kitchen
+[2023.06.01-09.27.37:484][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.8 sec (total: 34.1 sec)
+[2023.06.01-09.27.38:592][422]LogSlate: Window 'Message Log' being destroyed
+[2023.06.01-09.27.38:598][422]LogSlate: Window 'Message Log' being destroyed
